@@ -39,7 +39,7 @@ app.use('/api/auth', authRoutes);
 app.use('/api/locations', locationRoutes);
 app.use('/api/packages', packageRoutes);
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 8080;
 server.listen(PORT, () => {
   console.log(`Servidor escuchando en puerto ${PORT}`);
 });
