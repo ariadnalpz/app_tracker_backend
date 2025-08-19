@@ -20,4 +20,4 @@ EXPOSE 8080
 ENV PORT=8080
 
 # Comando para iniciar la aplicación
-CMD ["node", "server.js"]
+CMD ["node", "index.js"]
